@@ -12,16 +12,7 @@ app.get('/', (req, res) => {
   res.send('Hello World!')
 })
 
-// http://localhost:3001/api/search?term=abc
 
-/*
-
-    req.query is like : 
-
-    {
-        term: "abc"
-    }
-*/
 
 app.get("/api/search", (req, res)=>{
     // const term = req.query['term']
