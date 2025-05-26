@@ -6,7 +6,7 @@ const config = {
   username: 'ubuntu',
   host: '43.199.71.100',
   port: 22,
-  privateKey: fs.readFileSync('/Users/jason/Downloads/2025-05@dg-innotech.com.pem'),
+  privateKey: fs.readFileSync('\Users\User\Downloads\home@23871104.pem'),
   dstHost: 'database-1.cr2ggicgueb4.ap-east-1.rds.amazonaws.com',
   dstPort: 3306,
   localHost: '127.0.0.1',
